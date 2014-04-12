@@ -1,13 +1,13 @@
 {
     "name": "hashmonitor",
-    "version": "0.0.3",
-    "author": "Matt Pizzimenti",
+    "version": "0.0.4",
+    "author": "Jason West",
     "description": "Turn logs into metrics like a boss",
     "repository": {
         "type": "git",
-        "url": "git://github.com/olark/hashmonitor.git"
+        "url": "git://github.com/jasonhwest/hashmonitor.git"
     },
-    "homepage": "https://github.com/olark/hashmonitor",
+    "homepage": "https://github.com/jasonhwest/hashmonitor",
     "main": "lib/hashmonitor",
     "bin": {
         "hashmonitor": "./bin/hashmonitor"
