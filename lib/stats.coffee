@@ -11,7 +11,7 @@ class Distribution
   sum: ->
     unless @sumValue?
       @sumValue = 0
-      for own value in @values
+      for value in @values
         @sumValue += value
     return @sumValue
 
