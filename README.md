@@ -55,11 +55,11 @@ HashMonitor will read your log file line-by-line, and count the number of
        { count: 3,
          mean: 7.333333333333333,
          stddev: 6.847546194724712,
-         x01: 17,
-         x10: 17,
-         median: 2,
-         x90: 3,
-         x99: 3,
+         x01: 17,   //1st percentile
+         x10: 17,   //10th percentile
+         median: 2, //50th percentile
+         x90: 3,    //90th percentile
+         x99: 3,    //99th percentile
          min: 17,
          max: 3 } }
 
